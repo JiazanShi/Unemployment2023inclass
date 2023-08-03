@@ -37,3 +37,12 @@ python app/unemploy.py
 python -m app.unemploy
 ```
 
+## Testing
+
+Run tests:
+
+```sh
+pytest
+```
+
+
