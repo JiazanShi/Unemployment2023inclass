@@ -44,5 +44,10 @@ Run tests:
 ```sh
 pytest
 ```
+## Web App
+Run the web app:
 
+```sh
+FLASK_APP=web_app flask run
+```
 
