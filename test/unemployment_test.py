@@ -1,5 +1,10 @@
 from app.unemploy import format_pct, fetch_unemployment_data
+import os
+from dotenv import load_dotenv
 
+load_dotenv() #> invoking this function loads contents of the ".env" file into the script's environment...
+
+API_KEY = os.getenv("ALPHAVANTAGE_API_KEY")
 
 def test_to_pct():
 
