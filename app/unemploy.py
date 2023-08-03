@@ -9,7 +9,7 @@ from plotly.express import line
 
 load_dotenv() #> invoking this function loads contents of the ".env" file into the script's environment...
 
-API_KEY = os.getenv("ALPHAVANTAGE_API_KEY")
+API_KEY = os.getenv("API_KEY")
 
 
 def format_pct(my_number):
