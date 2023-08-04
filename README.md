@@ -51,3 +51,4 @@ Run the web app:
 FLASK_APP=web_app flask run
 ```
 
+## [Deployment Guide](/DEPLOYING.md)
