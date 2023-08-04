@@ -29,12 +29,16 @@ pip install -r requirements.txt
 
 ## Usage
 
-Run the report:
+Run the unemployment report:
 
 ```sh
-python app/unemploy.py
-
 python -m app.unemploy
+```
+
+Run the stock report:
+
+```sh
+python -m app.stocks
 ```
 
 ## Testing
